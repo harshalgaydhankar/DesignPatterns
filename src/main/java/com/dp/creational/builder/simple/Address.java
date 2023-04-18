@@ -1,4 +1,4 @@
-package com.dp.creational.builder;
+package com.dp.creational.builder.simple;
 
 public class Address {
 
