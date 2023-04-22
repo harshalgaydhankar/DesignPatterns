@@ -1,0 +1,13 @@
+package com.dp.creational.prototype;
+
+public class Client {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+
+        Swordsman s1 = new Swordsman();
+		s1.attack();
+		System.out.println(s1);
+		Swordsman s2 = (Swordsman) s1.clone();
+		System.out.println(s2);
+	}
+}
